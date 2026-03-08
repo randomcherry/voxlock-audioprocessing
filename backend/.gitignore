@@ -1,0 +1,39 @@
+# Python / Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+.flaskenv
+
+# macOS junk
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE / Editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Testing / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Flask-specific
+instance/
+*.log
+
+# Misc
+*.bak
+*.swp
+*.tmp
